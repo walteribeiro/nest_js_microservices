@@ -1,0 +1,7 @@
+# pnpm >= 11 reads its settings from this file (the "pnpm" field in package.json
+# and non-registry .npmrc settings are no longer supported).
+# Dependencies allowed to run install/build scripts. Without this, "pnpm install"
+# aborts with ERR_PNPM_IGNORED_BUILDS instead of just warning.
+allowBuilds:
+  '@parcel/watcher': true
+  unrs-resolver: true

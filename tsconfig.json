@@ -11,12 +11,32 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "target": "ES2023",
-    "types": ["node", "jest"],
+    "types": [
+      "node",
+      "jest"
+    ],
     "sourceMap": true,
     "outDir": "./dist",
     "incremental": true,
     "skipLibCheck": true,
     "strict": true,
-    "strictPropertyInitialization": false
-  }
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@app/workflows": [
+        "./libs/workflows/src"
+      ],
+      "@app/workflows/*": [
+        "./libs/workflows/src/*"
+      ]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/virtual-facility/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/workflows-service/tsconfig.app.json"
+    }
+  ]
 }
