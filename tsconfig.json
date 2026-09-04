@@ -37,6 +37,18 @@
     },
     {
       "path": "./apps/workflows-service/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/alarms-service/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/alarms-generator/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/alarms-classifier-service/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/notifications-service/tsconfig.app.json"
     }
   ]
 }
