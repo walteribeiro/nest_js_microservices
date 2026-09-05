@@ -6,6 +6,18 @@
     "rootDir": "./src",
     "outDir": "../../dist/apps/alarms-generator"
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test",
+    "**/*spec.ts"
+  ],
+  "references": [
+    {
+      "path": "../../libs/tracing/tsconfig.lib.json"
+    }
+  ]
 }

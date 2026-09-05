@@ -22,6 +22,12 @@
     "strict": true,
     "strictPropertyInitialization": false,
     "paths": {
+      "@app/tracing": [
+        "./libs/tracing/src"
+      ],
+      "@app/tracing/*": [
+        "./libs/tracing/src/*"
+      ],
       "@app/workflows": [
         "./libs/workflows/src"
       ],
